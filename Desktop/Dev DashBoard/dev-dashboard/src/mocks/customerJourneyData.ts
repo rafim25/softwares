@@ -1,0 +1,42 @@
+export const mockCustomerJourneys = [
+  {
+    id: "CJ001",
+    status: "completed",
+    createdAt: "2024-03-15T10:30:00Z",
+    customerName: "John Doe",
+    source: "Web Form",
+    priority: "High",
+  },
+  {
+    id: "CJ002",
+    status: "pending",
+    createdAt: "2024-03-15T11:45:00Z",
+    customerName: "Jane Smith",
+    source: "Mobile App",
+    priority: "Medium",
+  },
+  {
+    id: "CJ003",
+    status: "completed",
+    createdAt: "2024-03-14T09:15:00Z",
+    customerName: "Robert Johnson",
+    source: "Direct Call",
+    priority: "Low",
+  },
+  {
+    id: "CJ004",
+    status: "pending",
+    createdAt: "2024-03-14T16:20:00Z",
+    customerName: "Sarah Williams",
+    source: "Email",
+    priority: "High",
+  },
+  {
+    id: "CJ005",
+    status: "completed",
+    createdAt: "2024-03-13T14:10:00Z",
+    customerName: "Michael Brown",
+    source: "Web Form",
+    priority: "Medium",
+  },
+];
